@@ -1,0 +1,66 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bar{
+    list-style-type: none;
+    display: flex;
+    max-width: 1200px;
+    width:40vw;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#E6E6EB ;
+    padding:2px 15px;
+    border-radius: 100px;
+}
+.bar li button{
+    padding: 10px 5px;
+    background-color:#E6E6EB ;
+    border-radius: 100px;
+    font-weight:400;
+    font-size:17px;
+    cursor: pointer;
+    border:0;
+}
+.barBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.butBox{
+    display: inline-block;
+    margin-left:20px;
+}
+.but1{
+    border: 0;
+    background-color:#E6E6EB ;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 20px;
+    width:50px;
+    margin:0 5px;
+    height:40px;
+}
+.active{
+    padding:10px 14px;
+    background-color: white !important;
+}
+.Grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+.List{
+    display: flex;
+    flex-direction: column !important;
+    max-width:60vw;
+}
+
+.boxing{
+    height: 800px;
+    overflow: scroll;
+    margin-bottom: 60px;
+}
